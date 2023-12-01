@@ -1,0 +1,436 @@
+.home
+{
+    width: 100vw;
+    height: 94vh;
+    background-image: url("hospital.avif");
+}
+.overlay
+{
+    width: 100vw;
+    height: 94vh;
+    background-color: rgba(21, 21, 21, 0.616);
+}
+.homecenter
+{
+    
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftmain
+{
+   color: green;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 0 10px black;
+}
+.leftsec
+{
+    font-family: 'Sometype Mono', monospace;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.leftbut
+{
+    text-decoration: none;
+}
+.home::before
+{
+    background-color: gray;
+}
+.hbutn
+{
+    border: none;
+    box-shadow: 0 0 5px gray;
+    border-radius: 0px !important;
+    background-color: white;
+    margin-left: 11.5%;
+    width: 15vw;
+    height: 8vh;
+}
+
+/* End Of Home Page  */
+/*---------------------------------------------------------- Start of About */
+div.about
+{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.aboutdetail, .servicedetail
+{
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid white; */
+    
+}
+.aboutinfo
+{
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+.photo
+{   margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    float: right;
+    height: 80vh;
+}
+.photo img{
+    /* box-shadow: 0px 0px 15px rgb(8, 243, 98); */
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+.aboutinfo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 20vh;
+}
+.detail{
+    /* border: 2px groove white; */
+    width: 100%;
+    height: 56vh;
+    padding: 2%;
+    padding-top: 5%;
+    border-radius: 5vh;
+}
+.content
+{
+    /* border: 1px solid red; */
+    /* display: flex; 
+    justify-content: center;
+    align-items: center; */
+    color: black;  
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.content h4{
+    font-weight: bolder;
+    font-size: 36px;
+    
+    /* border: 1px solid rgb(8, 243, 98); */
+    border-radius: 1em;
+    
+}
+.content span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.btnabout
+{
+    background-color: rgb(8, 243, 98);
+    border: none;
+}
+/* end of About Page  */
+/*------------------------------------------------------ Start of Doctor Page */
+div.doctors
+{
+    width: 100vw;
+    height: 90vh;
+    background-color: whitesmoke;
+}
+.servcard
+{
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    box-shadow: 0 0 5px gray;
+    /* border: 1px solid red; */
+}
+.servcard img
+{
+    width: 70%;
+    height: 50%;
+}
+.contcard h5 
+{
+    font-size: 23px;
+    color: black !important;
+    font-weight: bolder !important;
+    
+    
+}
+.cardalig
+{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    
+    
+}
+.headline
+{
+    margin-top: 2vh;
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+u{
+    text-decoration: underline;
+    text-decoration-color: green ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutdetail, .servicedetail
+{
+    width: 100%;
+    margin: 0;
+    height: 80vh;
+    /* border: 1px solid black; */
+    
+}
+.aboutinfo1
+{
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+/* End Of Doctors */
+/* ---------------------------------------------------------------Start Of News */
+
+div.news
+{
+    width: 100vw;
+    height: 90vh;
+
+}
+sup{
+    font-family: 'Times New Roman', Times, serif;
+}
+.newcard
+{
+    width: 20vw;
+    height: 70vhvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0 0 5px gray;
+    /* border: 1px solid red; */
+}
+.newcard img
+{
+    width: 100%;
+    height: 100%%;
+}
+.contcard h5 
+{
+    font-size: 23px;
+    color: black !important;
+    font-weight: bolder !important;
+    
+    
+}
+.cardalig
+{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    
+    
+}
+.headline
+{
+    margin-top: 2vh;
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+u{
+    text-decoration: underline;
+    text-decoration-color: green ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutdetail, .servicedetail
+{
+    width: 100%;
+    margin: 0;
+    height: 80vh;
+    /* border: 1px solid black; */
+    
+}
+.aboutinfo1
+{
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+
+/* End Of Contact */
+.contact{
+    width: 100vw;
+    height: 90vh;
+    background-color: whitesmoke;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=email]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  select{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=tel]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea
+  {
+    width: 82%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /* end of contact  */
+  /* start of footer  */
+  .footer
+  {
+    margin-top: 5vh;
+    background-image: url("foot.jpg");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 60vh;
+    border: none;
+  }
+  .mobile 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play
+{
+    width: 15vw;
+    height: 15vh;
+}
+/*--------------------- end of footer  */
+
+.footer-clean {
+    height: 50vh;
+    padding:50px 0;
+    background-color:#010101;
+    color:#4b4c4d;
+  }
+  
+  .footer-clean h4 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+    color: white;
+  }
+  
+  .footer-clean ul{
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+    color: white;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+ 
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+   
